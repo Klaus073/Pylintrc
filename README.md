@@ -19,7 +19,7 @@
 
 2. **Add `.pylintrc` in your code:**
 
-3. **Run pylint of file or folder:**
+3. **Run pylint on file or folder:**
     ```bash
     pylint folder-name # to run checks on all files inside the folder
     pylint folder-name/file-name.py # to run checks on single file
