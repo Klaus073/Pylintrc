@@ -8,3 +8,23 @@
 - **Custom Rules**: Tailor Pylint's analysis to suit your project's requirements by enabling or disabling specific checks.
 - **Suppress False Positives**: Sometimes Pylint might flag code as problematic when it's actually fine. `.pylintrc` allows you to suppress such warnings selectively.
 - **Integration with CI/CD**: Incorporate Pylint into your continuous integration (CI) or continuous deployment (CD) pipeline to ensure code quality is maintained automatically.
+
+## How to use
+
+ 
+
+1. **Install Pylint:**
+   ```bash
+   pip install pylint
+
+2. **Add `.pylintrc` in your code:**
+
+2. **Run pylint of file or folder:**
+    ```bash
+    pylint folder # to run checks on all files inside the folder
+    pylint folder/file.py # to run checks on single file
+    nemo\Scripts\activate.bat  # For Windows
+
+3. **Install Requirements:**
+    ```bash
+    pip install -r requirements.txt
