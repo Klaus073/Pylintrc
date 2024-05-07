@@ -19,12 +19,9 @@
 
 2. **Add `.pylintrc` in your code:**
 
-2. **Run pylint of file or folder:**
+3. **Run pylint of file or folder:**
     ```bash
-    pylint folder # to run checks on all files inside the folder
-    pylint folder/file.py # to run checks on single file
-    nemo\Scripts\activate.bat  # For Windows
+    pylint folder-name # to run checks on all files inside the folder
+    pylint folder-name/file-name.py # to run checks on single file
+    
 
-3. **Install Requirements:**
-    ```bash
-    pip install -r requirements.txt
